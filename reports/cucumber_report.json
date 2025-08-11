@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1086236299
+              "duration": 1174750500
             }
           },
           {
@@ -27,8 +27,18 @@
             },
             "result": {
               "status": "passed",
-              "duration": 22441370200
-            }
+              "duration": 12488081700
+            },
+            "embeddings": [
+              {
+                "data": "bmF2aWdhdGluZyB0byBtYWN5cyBzaXRl",
+                "mime_type": "text/x.cucumber.log+plain"
+              },
+              {
+                "data": "dmFsaWRhdGluZyBpZiBsYW5kZWQgb24gY29ycmVjdCBwYWdl",
+                "mime_type": "text/x.cucumber.log+plain"
+              }
+            ]
           },
           {
             "arguments": [],
@@ -36,11 +46,11 @@
             "line": 7,
             "name": "I search for the product using product Id : \"86800\"",
             "match": {
-              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:19"
+              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 8187149200
+              "duration": 5415713799
             }
           },
           {
@@ -49,12 +59,18 @@
             "line": 8,
             "name": "I should be navigated to the Product Description Page (PDP) for the product",
             "match": {
-              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:24"
+              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:26"
             },
             "result": {
               "status": "passed",
-              "duration": 70415399
-            }
+              "duration": 37326700
+            },
+            "embeddings": [
+              {
+                "data": "Y2FwdHVyaW5nIHRoZSBwcmljZSBvZiB0aGUgcHJvZHVjdA==",
+                "mime_type": "text/x.cucumber.log+plain"
+              }
+            ]
           },
           {
             "arguments": [],
@@ -62,11 +78,11 @@
             "line": 11,
             "name": "I click the Add to Bag button",
             "match": {
-              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:31"
+              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:33"
             },
             "result": {
               "status": "passed",
-              "duration": 168818500
+              "duration": 132618500
             }
           },
           {
@@ -75,11 +91,11 @@
             "line": 12,
             "name": "the bag overlay should appear and the price on the bag overlay should match the product price on the PDP",
             "match": {
-              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:35"
+              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 2145551299
+              "duration": 1709997800
             }
           },
           {
@@ -88,11 +104,11 @@
             "line": 15,
             "name": "I click the bag icon",
             "match": {
-              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:40"
+              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:42"
             },
             "result": {
               "status": "passed",
-              "duration": 967248399
+              "duration": 796274499
             }
           },
           {
@@ -101,11 +117,11 @@
             "line": 16,
             "name": "I should be navigated to the Bag page and the product and price on the Bag page should match the PDP",
             "match": {
-              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:44"
+              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:46"
             },
             "result": {
               "status": "passed",
-              "duration": 1443986400
+              "duration": 1431848400
             }
           },
           {
@@ -114,11 +130,11 @@
             "line": 19,
             "name": "I click the Checkout button",
             "match": {
-              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:49"
+              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:51"
             },
             "result": {
               "status": "passed",
-              "duration": 914976600
+              "duration": 126785200
             }
           },
           {
@@ -127,12 +143,18 @@
             "line": 20,
             "name": "I should be navigated to the Checkout page and the product and price on the Checkout page should match the PDP",
             "match": {
-              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:53"
+              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:55"
             },
             "result": {
               "status": "passed",
-              "duration": 13346464200
-            }
+              "duration": 11307654299
+            },
+            "embeddings": [
+              {
+                "data": "dmFsaWRhdGluZyB0aGUgcHJvZHVjdCBwcmljZSBpbiBjaGVja291dCBwYWdl",
+                "mime_type": "text/x.cucumber.log+plain"
+              }
+            ]
           },
           {
             "arguments": [],
@@ -140,12 +162,30 @@
             "line": 23,
             "name": "I enter delivery details: firstName, lastName, address, phoneNumber",
             "match": {
-              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:59"
+              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:62"
             },
             "result": {
               "status": "passed",
-              "duration": 2783822400
-            }
+              "duration": 2638795000
+            },
+            "embeddings": [
+              {
+                "data": "ZmlsbGluZyB0aGUgZmlyc3QgbmFtZSBhcyBGaXJzdE5hbWU=",
+                "mime_type": "text/x.cucumber.log+plain"
+              },
+              {
+                "data": "ZmlsbGluZyB0aGUgbGFzdCBuYW1lIGFzIExhc3ROYW1l",
+                "mime_type": "text/x.cucumber.log+plain"
+              },
+              {
+                "data": "ZmlsbGluZyB0aGUgYWRkcmVzcyBsaW5lIDEgYXMgNzkwMSBUeXNvbg==",
+                "mime_type": "text/x.cucumber.log+plain"
+              },
+              {
+                "data": "ZmlsbGluZyB0aGUgcGhvbmUgbnVtYmVyIGFzICgxMjMpIDIzNC0zMjEy",
+                "mime_type": "text/x.cucumber.log+plain"
+              }
+            ]
           },
           {
             "arguments": [],
@@ -153,11 +193,11 @@
             "line": 24,
             "name": "I should see the delivery summary with the correct details",
             "match": {
-              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:63"
+              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:66"
             },
             "result": {
               "status": "passed",
-              "duration": 12300473400
+              "duration": 4980419699
             }
           },
           {
@@ -166,12 +206,34 @@
             "line": 27,
             "name": "I enter payment details: ccNo, month, year, CVV",
             "match": {
-              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:68"
+              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:71"
             },
             "result": {
               "status": "passed",
-              "duration": 7655011799
-            }
+              "duration": 6970361499
+            },
+            "embeddings": [
+              {
+                "data": "ZmlsbGluZyB0aGUgY3JlZGl0IGNhcmQgbnVtYmVyIGFzIDQ0NDUyMjIyOTk5OTAwMDc=",
+                "mime_type": "text/x.cucumber.log+plain"
+              },
+              {
+                "data": "ZmlsbGluZyB0aGUgbW9udGggYXMgMTI=",
+                "mime_type": "text/x.cucumber.log+plain"
+              },
+              {
+                "data": "ZmlsbGluZyB0aGUgeWVhciBhcyAyMDI1",
+                "mime_type": "text/x.cucumber.log+plain"
+              },
+              {
+                "data": "ZmlsbGluZyB0aGUgY3Z2IGFzIDIyMg==",
+                "mime_type": "text/x.cucumber.log+plain"
+              },
+              {
+                "data": "ZmlsbGluZyB0aGUgZW1haWwgYXMgdGVzdEBleGFtcGxlLmNvbQ==",
+                "mime_type": "text/x.cucumber.log+plain"
+              }
+            ]
           },
           {
             "arguments": [],
@@ -179,11 +241,11 @@
             "line": 28,
             "name": "I click the pay button",
             "match": {
-              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:72"
+              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:75"
             },
             "result": {
               "status": "passed",
-              "duration": 6996773999
+              "duration": 5666453699
             }
           },
           {
@@ -192,11 +254,11 @@
             "line": 29,
             "name": "I should see the order confirmation with the order number",
             "match": {
-              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:76"
+              "location": "file:\\C:\\Users\\2397797\\OneDrive%20-%20Cognizant\\Desktop\\macys%20-%20cucumber\\features\\step_definitions\\productPurchase.js:79"
             },
             "result": {
               "status": "passed",
-              "duration": 11159966100
+              "duration": 9688237000
             }
           },
           {
@@ -204,7 +266,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 43808799
+              "duration": 93790600
             }
           }
         ],

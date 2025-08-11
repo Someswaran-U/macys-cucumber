@@ -12,7 +12,9 @@ let index = 0
 
 //Step 1
 Given('I am on the homepage', async function () {
+    this.log("navigating to macys site")
     await this.Home.goToSite();
+    this.log("validating if landed on correct page")
     expect(await this.Home.getTitle()).toContain(this.Home.title)
 });
 
@@ -22,7 +24,7 @@ When('I search for the product using product Id : {string}', async function (pro
 });
 
 Then('I should be navigated to the Product Description Page \\(PDP) for the product', async function () {
-
+    this.log("capturing the price of the product")
     price = await this.Pdp.getPrice()
     prices.push(price)
 });
@@ -52,6 +54,7 @@ When('I click the Checkout button', async function () {
 
 Then('I should be navigated to the Checkout page and the product and price on the Checkout page should match the PDP', async function () {
     await this.Checkout.signInAsGuest()
+    this.log("validating the product price in checkout page")
     expect(await this.Checkout.getOrderSubtotal()).toContain(prices[index])
 });
 

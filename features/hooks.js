@@ -14,7 +14,7 @@ Before(async function() {
     this.Home = new homeMethod(this.page)
     this.Pdp = new pdpMethod(this.page)
     this.Bag = new bagMethod(this.page)
-    this.Checkout = new checkoutMethod(this.page)
+    this.Checkout = new checkoutMethod(this.page, this)
     this.Confirmation = new confirmationMethod(this.page)
 })
 After(async function(){
