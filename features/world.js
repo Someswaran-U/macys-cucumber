@@ -6,6 +6,6 @@ class customWorld{
     }
 
     log(message){
-        this.attach(message, 'text/x.cucumber.log+plain')
+        this.log(message)
     }
 }
